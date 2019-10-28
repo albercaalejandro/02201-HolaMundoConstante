@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package holamundoconstante;
+package org.japo.java.main;
 
 /**
  *
@@ -22,7 +22,7 @@ package holamundoconstante;
 public class Main {
 
     public static void main(String[] args) {
-        String SALUDO_CONSTANTE = "¡Hola mundo!";
+        final String SALUDO_CONSTANTE = "¡Hola mundo!";
         System.out.println(SALUDO_CONSTANTE);
     }
 }
